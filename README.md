@@ -9,29 +9,30 @@ The full **integrated path stability selection (IPSS) package**, which includes 
 available here: [https://github.com/omelikechi/ipss](https://github.com/omelikechi/ipss)
 
 ## Repository Structure
-The `simulations` folder contains code for all simulation results (Sections 3, S3, and S5)
-- `generate_data.py`: Code for generating synthetic data from user-specified models
-- `methods.py`: Python implementations of each feature selection method
-- `methods.r`: R implementations of certain feature selection methods, which are then wrapped in Python in `methods.py`
-- `plot_gaussian_results.py`: Reproduces Figures 1 and S1 (the Gaussian simulation results; see Section 3.2)
-- `plot_rnaseq_results.py`: Reproduces Figures 2 and S2 (the simulation results using real RNA-seq data; see Section 3.3)
-- `simulation.py`: Main script for running all of the simulations in Section 3
+The `simulations` folder contains code for reproducing all simulation results (Sections 3, S3, and S5)
+- `generate_data.py`: Generate synthetic data from user-specified models
+- `methods.py`: Python implementation of each feature selection method
+- `methods.r`: R implementations of certain feature selection methods, wrapped in Python in `methods.py`
+- `plot_gaussian_results.py`: Reproduces Figures 1 and S1 (Gaussian simulation results)
+- `plot_rnaseq_results.py`: Reproduces Figures 2 and S2 (RNA-seq simulation results)
+- `simulation.py`: Main script for running all simulations in Section 3
 - The `data` folder contains
-	- `ovarian_rnaseq.npy`: The ovarian cancer RNA-seq feature matrix
+	- `ovarian_rnaseq.npy`: Ovarian cancer RNA-seq feature matrix
 - The `KOBT` and `SSBoost` folders contain customized code for running these methods
-- The `results` folder contains all of the simulation results for each method
+- The `results` folder contains all simulation results for each method
 - The `sensitivity_analysis` folder contains code for reproducing all parameter sensitivity results (Section S5)
-	- `sensitivity.py`: Main script for running sensitivity analyses over IPSS hyperparameters
-	- `sensitivity_B.py`: Specialized sensitivity experiments for the number of subsamples, B
-	- `extract_results.py`: Helper to extract results from different sensitivity experiments
-	- `plot_B_results.py`: Reproduces Figures S16 and S17 (sensitivity to the number of subsamples B)  
-	- `plot_cutoff_results.py`: Reproduces Figures S12 and S13 (sensitivity to the integral cutoff parameter C) 
-	- `plot_delta_results.py`: Reproduces Figures S14 and S15 (sensitivity to the probability measure parameter delta)  
-	- `plot_f_results.py`: Reproduces Figures S18 and S19 (dependence on the choice of function f)
+	- `sensitivity.py`: Main script for running sensitivity analyses of IPSS hyperparameters
+	- `sensitivity_B.py`: Specialized sensitivity experiments for the number of subsamples B
+	- `extract_results.py`: Helper to extract results from sensitivity experiments
+	- `plot_B_results.py`: Reproduces Figures S16 and S17 (sensitivity to number of subsamples B)  
+	- `plot_cutoff_results.py`: Reproduces Figures S12 and S13 (sensitivity to integral cutoff parameter C) 
+	- `plot_delta_results.py`: Reproduces Figures S14 and S15 (sensitivity to probability measure parameter delta)  
+	- `plot_f_results.py`: Reproduces Figures S18 and S19 (dependence on function f)
 	- The `data` folder contains the same ovarian cancer RNA-seq feature matrix as the `data` folder in `simulations`, duplicated 
-	here for convenience due to relative path constraints
+	here for convenience
 	- The `ipss_sensitivity` folder contains code for running IPSS with different hyperparameters
-	- The `results` folder contains all of the simulation results for each sensitivity experiment
+	- The `results` folder contains simulation results for each sensitivity experiment
+	
 The `cancer_studies` folder contains all code for implementing the ovarian cancer and glioma case studies (Sections 4 and S4)
 - `load_cancer_data.py`: Code for loading cancer data, contained in the `data` folder
 - `methods.py`: Python implementations of each feature selection method
