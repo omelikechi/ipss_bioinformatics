@@ -8,7 +8,7 @@ https://doi.org/10.5281/zenodo.XXXXXXX
 The full **integrated path stability selection (IPSS) package**, which includes expanded functionality and is designed for general use, is 
 available here: [https://github.com/omelikechi/ipss](https://github.com/omelikechi/ipss)
 
-## Repository Structure
+## Repository structure
 The `simulations` folder contains code for the simulation studies (Sections 3, S3, and S5)
 - `generate_data.py`: Generate synthetic data from user-specified models
 - `methods.py`: Python implementation of each feature selection method
@@ -51,8 +51,8 @@ Cancer Genome Atlas and were downloaded for free from LinkedOmics
 	- The `cancer_results` folder contains the features selected by each method
 	- The `lit_results` folder contains the literature results for each method
 
-## Datasets
-All datasets from this work are available in this repository
+## Data availability 
+All datasets used in this work are included in this repository
 - Ovarian cancer data from The Cancer Genome Atlas
 	- Source: https://www.linkedomics.org/data_download/TCGA-OV/  
 	- Files in this repository: 
