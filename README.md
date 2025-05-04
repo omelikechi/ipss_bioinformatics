@@ -1,7 +1,6 @@
 # **Supplementary code for "Nonparametric IPSS: Fast, flexible feature selection with false discovery control" (*Bioinformatics*, 2025)**
 
-<!-- TODO: Update after Zenodo upload -->
-A snapshot of this code used for the paper is permanently archived with DOI:  
+A snapshot of the source code used in this paper is archived here:  
 https://doi.org/10.5281/zenodo.15335289 
 
 ## **Important!**  
