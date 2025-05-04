@@ -9,7 +9,7 @@ The full **integrated path stability selection (IPSS) package**, which includes 
 available here: [https://github.com/omelikechi/ipss](https://github.com/omelikechi/ipss)
 
 ## Repository Structure
-- The `simulations` folder contains code for all simulation results (Sections 3, S3, and S5)
+The `simulations` folder contains code for all simulation results (Sections 3, S3, and S5)
 	- `generate_data.py`: Code for generating synthetic data from user-specified models
 	- `methods.py`: Python implementations of each feature selection method
 	- `methods.r`: R implementations of certain feature selection methods, which are then wrapped in Python in `methods.py`
@@ -32,7 +32,7 @@ available here: [https://github.com/omelikechi/ipss](https://github.com/omelikec
 		here for convenience due to relative path constraints
 		- The `ipss_sensitivity` folder contains code for running IPSS with different hyperparameters
 		- The `results` folder contains all of the simulation results for each sensitivity experiment
-- The `cancer_studies` folder contains all code for implementing the ovarian cancer and glioma case studies (Sections 4 and S4)
+The `cancer_studies` folder contains all code for implementing the ovarian cancer and glioma case studies (Sections 4 and S4)
 	- `load_cancer_data.py`: Code for loading cancer data, contained in the `data` folder
 	- `methods.py`: Python implementations of each feature selection method
 	- `methods.r`: R implementations of certain feature selection methods, which are then wrapped in Python in `methods.py`
