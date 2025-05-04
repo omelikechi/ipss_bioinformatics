@@ -53,13 +53,13 @@ Cancer Genome Atlas and were downloaded for free from LinkedOmics
 
 ## Datasets
 All datasets from this work are available in this repository
-- Ovarian cancer data from The Cancer Genome Atlas:
+- Ovarian cancer data from The Cancer Genome Atlas
 	- Source: https://www.linkedomics.org/data_download/TCGA-OV/  
 	- Files in this repository: 
 		- `simulations/data/ovarian_rnaseq.npy`
 		- `simulations/sensitivity_analysis/data/ovarian_rnaseq.npy` (identical to above)
 		- `cancer_studies/data/ovarian`
-- Glioma data from The Cancer Genome Atlas:
+- Glioma data from The Cancer Genome Atlas
 	- Source: https://www.linkedomics.org/data_download/TCGA-GBMLGG/  
 	- Files in this repository: 
 		- `cancer_studies/data/glioma`
