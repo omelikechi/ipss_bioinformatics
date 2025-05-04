@@ -1,8 +1,4 @@
-# **Supplementary code for "Nonparametric IPSS: A general framework for fast feature selection with false discovery control" (Bioinformatics, 2025)**
-
-This repository contains code for reproducing results and figures from the paper  
-“Nonparametric IPSS: A general framework for fast feature selection with false discovery control,” published
-in *Bioinformatics*
+# **Supplementary code for "Nonparametric IPSS: Fast, flexible feature selection with false discovery control" (*Bioinformatics*, 2025)**
 
 <!-- TODO: Update after Zenodo upload -->
 A snapshot of this code used for the paper is permanently archived with DOI:  
