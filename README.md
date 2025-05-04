@@ -2,7 +2,7 @@
 
 <!-- TODO: Update after Zenodo upload -->
 A snapshot of this code used for the paper is permanently archived with DOI:  
-https://doi.org/10.5281/zenodo.XXXXXXX  
+https://doi.org/10.5281/zenodo.15335289 
 
 ## **Important!**  
 The full **integrated path stability selection (IPSS) package**, which includes expanded functionality and is designed for general use, is 
